@@ -1,0 +1,176 @@
+.background{
+    
+        background-image: url('./annie-spratt-FqpSyjCdccw-unsplash.jpg');
+        background-size: cover; 
+        background-position: center; 
+        height: 655px;
+}
+
+.container{ 
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: center;
+   }
+
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size:2rem;
+    text-align: right;
+
+ }
+ .profile-img {
+    border-radius: 20%;
+    height: 300px;
+  }
+  .align{
+    font-size: xx-large;
+    text-align: center;
+  }
+ 
+  .carousel {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.carousel-inner img {
+    height: 400px; 
+    object-fit: cover; 
+    width: 100%;
+}
+/* Footer Styling */
+.footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: white; /* Set icon color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #1DA1F2;
+}
+
+.social-icons i {
+    transition: color 0.3s ease;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+/* Container for the Pricing Table */
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* Styling for Each Pricing Card */
+.pricing-card {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pricing-price {
+  font-size: 2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.pricing-description {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.pricing-features li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Button Styling */
+.pricing-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.pricing-btn:hover {
+  background-color: #0056b3;
+}
+.featured {
+  background-color: #d8d6d4;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.featured .pricing-title {
+  color: #333;
+}
+
+.featured .pricing-btn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.featured .pricing-btn:hover {
+  background-color: #d35400;
+}
+@media (max-width: 768px) {
+    .pricing-card {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .background {
+        padding: 30px 0;
+    }
+
+    .centered-text {
+        font-size: 1.5em;
+    }
+
+    .pricing-table {
+        flex-direction: column;
+        align-items: center;
+    }
+}
